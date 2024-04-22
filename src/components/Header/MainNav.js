@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
 import MenuBar from '../MenuBar/MenuBar';
-import HeaderLogo from '../../assets/img/logo/logo.png';
+import HeaderLogo from '../../assets/img/logo/logo.jpg';
 
 const MainNav = () => {
   return (
@@ -11,7 +11,7 @@ const MainNav = () => {
         <div className="flex justify-start flex-grow items-center space-x-3 sm:space-x-8 lg:space-x-10">
           {/* <Logo /> */}
           <a href='/inicio' smooth="true" >
-            <img src={HeaderLogo} className='w-24 h-24 xl:w-20 xl:h-20'/>
+            <img src={HeaderLogo} className='w-24 h-24 xl:w-24 xl:h-20'/>
           </a>
           {/* <span className='font-bold text-6xl text-primary uppercase'>Logo</span> */}
         </div>

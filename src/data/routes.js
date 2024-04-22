@@ -7,7 +7,7 @@ import Contact from '../pages/Contact';
 export const navigationRoutes = [
   {
     id: 1,
-    name: 'Unne',
+    name: 'Inicio',
     path: '/',
     element: <Home/>,
   },

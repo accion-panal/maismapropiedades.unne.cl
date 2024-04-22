@@ -19,24 +19,23 @@ const AboutComponent = () => {
             <img
               src={aboutMeImg}
               alt="about-img"
-              className="object-cover object-top rounded-full shadow-lg h-[280px] w-[280px] mt-10 mx-20 md:mx-2 md:w-[300px] md:h-[300px] xl:w-[350px] xl:h-[350px] xl:my-10 xl:mx-20 hover:scale-110 duration-300"
+              className="object-cover object-center rounded-full shadow-lg h-[280px] w-[280px] mt-10 mx-20 md:mx-2 md:w-[300px] md:h-[300px] xl:w-[350px] xl:h-[350px] xl:my-10 xl:mx-20 hover:scale-110 duration-300"
             />
           </div>
           <div className="col-span-2 xl:col-span-1 ">
             <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 xl:text-left">                    
-            Cuento con siete años de experiencia en el sector inmobiliario, y desde hace tres años trabajo
-            de manera independiente. Esta labor es mi pasión, ya que considero que va más allá de 
-            simplemente arrendar o vender propiedades; implica ser capaz de ayudar a las personas a 
-            encontrar el hogar de sus sueños. Mi enfoque se centra en satisfacer todas las necesidades 
-            del cliente, desde la conectividad hasta la modernidad de los espacios. Para lograrlo, es 
-            fundamental conocer a fondo a cada cliente potencial y entender sus requerimientos específicos.
+            ¿Buscas vender o arrendar tu propiedad de forma rápida y segura? ¡Yo puedo ayudarte!
+            Me llamo Hector Mora, soy corredor de propiedades con años de experiencia en el mercado inmobiliario. Ofrezco un servicio personalizado y eficiente para que puedas encontrar al mejor comprador o arrendatario para tu propiedad.
+            Si tienes una propiedad que deseas vender o arrendar, no dudes en contactarme. Me encargaré de realizar una evaluación profesional de tu propiedad y de promocionarla en los principales portales inmobiliarios.
+            ¡Confía en mi experiencia y en mis resultados! Contáctame para más información y juntos lograremos concretar la venta o arriendo de tu propiedad.
+            ¡Déjame ayudarte a lograr tus objetivos inmobiliarios!
               <br />
             </p>
             <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 md:text-center xl:text-left">
-              Yanira Rosales
+              Maisma propiedades
             </p>
             <p className="text-xl xl:text-xl text-gray-700 ml-0 xl:ml-1 md:text-center xl:text-left">
-              Directora de NR. Propiedades
+              Directora de Maisma propiedades
             </p>
           </div>
         </div>

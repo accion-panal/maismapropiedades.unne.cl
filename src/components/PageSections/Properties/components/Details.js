@@ -8,7 +8,7 @@ import {
 } from '../../../../utils';
 import ExchangeRateServices from '../../../../services/ExchangeRateServices';
 import { iconsList } from '../../../Icons';
-import LogoDetail from '../../../../assets/img/logo/logo.png'
+import LogoDetail from '../../../../assets/img/logo/logo.jpg'
 
 
 const Details = ({ property }) => {
@@ -100,7 +100,7 @@ const Details = ({ property }) => {
             <div className='my-2  2xl:my-2 2xl:mt-2 '>
               {/* <h2 className='text-7xl font-bold text-primary'>LOGO</h2> */}
               <a href='/inicio' smooth="true" >
-                <img src={LogoDetail} className='w-44 h-32 xl:w-44 xl:h-32'/>
+                <img src={LogoDetail} className='w-36 h-32 xl:w-40 xl:h-36'/>
               </a>
             </div>
           </div>
