@@ -9,7 +9,7 @@ import LogoFooter from '../../assets/img/logo/logo.jpg'
 
 const Footer = () => (
   <footer className="bg-gray-100 pt-10 pb-20 xl:px-32">
-    <div className='grid grid-cols-1 xl:grid-cols-4 mx-4 lg:mx-0'>
+    <div className='grid grid-cols-1 lg:grid-cols-4 mx-4 lg:mx-0'>
       <div className='col-span-1'>
         <div className='my-11 mx-14 2xl:my-1 2xl:mt-6 2xl:mx-20'>
           {/* <h2 className='text-7xl font-bold text-primary'>LOGO</h2> */}
